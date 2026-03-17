@@ -756,7 +756,591 @@
 
     <div class="header-spacer"></div>
 
-    <div class="container"></div>
+    <div class="container">
+      <div class="mind-map animacion-contenido" id="mindMap">
+        <div class="section" data-section="1">
+          <div class="section-header" onclick="toggleSection(this)">
+            <div style="display: flex; align-items: center">
+              <span class="section-number">1</span>
+              <span class="section-title">Introducción y objetivo del módulo</span>
+            </div>
+            <span class="toggle-icon">▼</span>
+          </div>
+          <div class="section-content">
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">1.1</span>
+                  <span class="subsection-title">Marco general y público objetivo</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Presentación del propósito del módulo: identificar trabajos de alto riesgo y herramientas para supervisión eficaz: Dirigido a prevencionistas, supervisores, operadores, contratistas y personal operativo interesado en seguridad. Aplicable a múltiples rubros: construcción, minería, servicios, metalmecánica.</div>
+                  <div class="content-text">Importancia de basar procedimientos en normativa legal: Procedimientos y supervisión deben sustentarse en leyes y reglamentos vigentes.</div>
+                  <a href="https://www.youtube.com/watch?v=lpGnmhwo2fA&start=0" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(00:00:00)</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">1.2</span>
+                  <span class="subsection-title">Leyes, decretos y resoluciones relevantes</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Ley 29.783: Ley de Seguridad y Salud en el Trabajo: Define trabajos de alto riesgo y responsabilidades de empleadores y trabajadores. Exige sistema integrado de gestión para actividades en empresas.</div>
+                  <div class="content-text">Decreto Supremo 005-2012-TR (reglamento) y sus modificatorias: Reglamenta la ley; algunos artículos y anexos han sido modificados.</div>
+                  <div class="content-text">Resolución Ministerial A-050-2013-TR (anexos referenciales): Contiene formatos referenciales: registro de auditoría, capacitaciones, lista de asistencia, equipos de seguridad, monitoreos.</div>
+                  <a href="https://www.youtube.com/watch?v=lpGnmhwo2fA&start=108" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(00:01:48)</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section" data-section="2">
+          <div class="section-header" onclick="toggleSection(this)">
+            <div style="display: flex; align-items: center">
+              <span class="section-number">2</span>
+              <span class="section-title">Marco legal y herramientas de gestión</span>
+            </div>
+            <span class="toggle-icon">▼</span>
+          </div>
+          <div class="section-content">
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">2.1</span>
+                  <span class="subsection-title">Normativa sectorial y normas referenciales</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Normativa minera: DS 024-2016 y modificatoria 023-2017: Desarrollo exhaustivo para minería; establece estándares, procedimientos y formatos (anexo 15B).</div>
+                  <div class="content-text">Normas voluntarias y referenciales: ISO 45001, OSHA, NFPA, ASME: Utilizadas como referencia complementaria, especialmente ISO 45001 como estándar internacional voluntario.</div>
+                  <a href="https://www.youtube.com/watch?v=lpGnmhwo2fA&start=230" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(00:03:50)</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">2.2</span>
+                  <span class="subsection-title">Tipos de documentos: ATS, PETAR, IPER-C, PETS, estándares</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">ATS (Análisis de Trabajo Seguro): Herramienta para determinar procedimiento de trabajo seguro: identificar peligros, evaluar riesgos y definir controles por actividad.</div>
+                  <div class="content-text">PETAR (Permiso Escrito de Trabajo de Alto Riesgo): Documento firmado por ingeniero/supervisor/jefe de área por turno que autoriza trabajos en zonas peligrosas. Verifica EPP, checklist de equipos y herramientas, condiciones previas; debe colocarse visible en área de trabajo.</div>
+                  <div class="content-text">IPER-C (Identificación de Peligros, Evaluación de Riesgos y Controles): Proceso sistemático para identificar peligros, evaluar riesgos e implementar controles para reducir niveles aceptables según normativa.</div>
+                  <div class="content-text">PETS (Procedimiento Escrito de Trabajo Seguro): Documento que describe paso a paso cómo realizar una tarea de forma correcta y segura; estructura incluida en reglamento minero.</div>
+                  <div class="content-text">Estándares: Modelos, pautas o parámetros mínimos aceptables definidos por el titular de la actividad (ej.: dimensiones de escalones, señalética). Responden a preguntas: qué hacer, quién lo hace, cuándo, responsabilidades y criterios de calidad.</div>
+                  <a href="https://www.youtube.com/watch?v=lpGnmhwo2fA&start=338" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(00:05:38)</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section" data-section="3">
+          <div class="section-header" onclick="toggleSection(this)">
+            <div style="display: flex; align-items: center">
+              <span class="section-number">3</span>
+              <span class="section-title">Definición y criterios de trabajos de alto riesgo</span>
+            </div>
+            <span class="toggle-icon">▼</span>
+          </div>
+          <div class="section-content">
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">3.1</span>
+                  <span class="subsection-title">Concepto y consecuencias</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Trabajo de alto riesgo: exposición a mayor nivel de peligro que puede ocasionar daños graves o la muerte: Presentes en actividades productivas como construcción, minería, hidrocarburos. Consecuencias: contusiones graves, fracturas, paraplejia, muerte.</div>
+                  <a href="https://www.youtube.com/watch?v=lpGnmhwo2fA&start=978" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(00:16:18)</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">3.2</span>
+                  <span class="subsection-title">Ejemplos normativos y valoraciones empresariales</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Trabajos considerados de alto riesgo según DS 024 (artículos señalados): Espacios confinados. Trabajos en caliente. Excavaciones ≥ 1.5 m. Trabajos en altura. Trabajos eléctricos en alta tensión. Manipulación de materiales radioactivos.</div>
+                  <div class="content-text">Otros trabajos valorados por IPER-C de la empresa: Empresas pueden identificar adicionales según evaluación propia (p. ej. manejo de equipos pesados). Punto 7 del anexo permite listar "otros trabajos valorados" según IPER-C.</div>
+                  <a href="https://www.youtube.com/watch?v=lpGnmhwo2fA&start=1305" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(00:21:45)</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section" data-section="4">
+          <div class="section-header" onclick="toggleSection(this)">
+            <div style="display: flex; align-items: center">
+              <span class="section-number">4</span>
+              <span class="section-title">Requisitos y contenido del PETAR y PET</span>
+            </div>
+            <span class="toggle-icon">▼</span>
+          </div>
+          <div class="section-content">
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">4.1</span>
+                  <span class="subsection-title">Elementos y llenado del PETAR</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Campos típicos del PETAR: departamento/section responsable, fecha, lugar, hora inicio y fin, descripción del trabajo y equipos a usar: Responsables del trabajo con cargos y firmas; permisos específicos requeridos. Inclusión de IPER-C, ATS, reunión de seguridad y registros de capacitación.</div>
+                  <div class="content-text">Indicaciones de visibilidad y autorización: Campos coloreados: supervisor ejecutante y supervisor de área. Permisos deben colocarse en lugar visible del área de trabajo.</div>
+                  <a href="https://www.youtube.com/watch?v=lpGnmhwo2fA&start=1554" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(00:25:54)</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">4.2</span>
+                  <span class="subsection-title">Formato PET y aprobación interna</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Anexo 15B (minería) como modelo referencial: logo, nombre del PET, área, código, versión, personal, EPP, herramientas, procedimiento paso a paso y restricciones: Se requiere elaboración, revisión y aprobación (roles pueden variar según estructura de la empresa).</div>
+                  <div class="content-text">Ejemplos de ítems específicos para trabajos en altura en PETAR: Certificado médico anual vigente, competencia y autorización, EPP requerido (arnés, doble línea de vida, casco con barbiquejo), bloqueo/desconexión si aplica. Verificación de checklist de equipos, señalización, iluminación, equipo de rescate disponible y supervisor de seguridad presente.</div>
+                  <a href="https://www.youtube.com/watch?v=lpGnmhwo2fA&start=1841" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(00:30:41)</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section" data-section="5">
+          <div class="section-header" onclick="toggleSection(this)">
+            <div style="display: flex; align-items: center">
+              <span class="section-number">5</span>
+              <span class="section-title">Trabajos en altura: definición, riesgos y controles</span>
+            </div>
+            <span class="toggle-icon">▼</span>
+          </div>
+          <div class="section-content">
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">5.1</span>
+                  <span class="subsection-title">Definición y umbrales</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Trabajos en altura: actividades que requieren subir a superficie para acceder a zona de trabajo (andamio, plataforma, escalera, man-lift, etc.): Considerados a partir de 1,80 m según normativa; empresas pueden ser más estrictas (p. ej. 1,50 m en minería).</div>
+                  <div class="content-text">Tipos de tareas habituales: Mantenimiento, reparaciones, montajes de estructuras, albañilería, sistemas contra incendio, trabajos eléctricos.</div>
+                  <a href="https://www.youtube.com/watch?v=lpGnmhwo2fA&start=2117" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(00:35:17)</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">5.2</span>
+                  <span class="subsection-title">Riesgos específicos y jerarquía de controles</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Principales riesgos: caída de personas, caída de herramientas/equipos, golpes, contusiones, fracturas, muerte: Controles según jerarquía: eliminación/sustitución, controles de ingeniería, controles administrativos (procedimientos, PETAR, ATS), EPP como última barrera. Controles físicos: andamios, barandas, mallas, líneas de vida, anclajes, arneses, señalización y capacitación.</div>
+                  <a href="https://www.youtube.com/watch?v=lpGnmhwo2fA&start=2403" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(00:40:03)</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">5.3</span>
+                  <span class="subsection-title">Sistemas de protección contra caídas y distancia de caída</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Diseño de sistemas de protección: punto de anclaje preferible por encima de la cabeza; longitud de cuerda y distancia entre anclaje incluidas en diseño específico: Componentes de la caída: distancia de caída libre, elongación del amortiguador, distancia de desaceleración, distancia libre requerida.</div>
+                  <div class="content-text">Importancia de inspección y verificación de equipos de protección y herramientas antes del uso: Inspecciones regulares por el trabajador y verificación por supervisor de seguridad.</div>
+                  <a href="https://www.youtube.com/watch?v=lpGnmhwo2fA&start=2531" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(00:42:11)</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section" data-section="6">
+          <div class="section-header" onclick="toggleSection(this)">
+            <div style="display: flex; align-items: center">
+              <span class="section-number">6</span>
+              <span class="section-title">Equipos personales, conectores, líneas de vida y sistemas de anclaje</span>
+            </div>
+            <span class="toggle-icon">▼</span>
+          </div>
+          <div class="section-content">
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">6.1</span>
+                  <span class="subsection-title">Equipos personales y conectores</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Arnés de cuerpo entero: compuesto por correas verticales y horizontales, hebillas y anillos en D, diseñado para distribuir fuerzas en caída: Debe cumplir normas ANSI A10.14 y ANSI Z39.159.1; ajuste ni muy apretado ni muy suelto (comprobar entrando las manos entre correas).</div>
+                  <div class="content-text">Barbiquejo y casco: barbiquejo elástico regulable para mantener casco fijo en caso de caída: Casco con barbiquejo requerido en trabajos en altura.</div>
+                  <div class="content-text">Conectores y mosquetones: resistencia mínima de 2.268 kg (5.000 libras): Inspeccionar por rupturas, golpes, quemaduras, deformaciones; descartar si presentan daños.</div>
+                  <div class="content-text">Correa antitrauma: dispositivo lateral conectado al arnés para reducir síndrome de suspensión y favorecer circulación tras una caída: Debe permitir al trabajador ponerse de pie sobre ella para reducir compresión en miembros.</div>
+                  <a href="https://www.youtube.com/watch?v=lpGnmhwo2fA&start=4428" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(01:13:48)</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">6.2</span>
+                  <span class="subsection-title">Líneas de vida y puntos de anclaje</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Puntos de anclaje: deben ser seguros, preferentemente por encima de la cabeza y anclados a estructuras verificadas: Líneas de vida: materiales sintéticos o cable de acero de 1/2" que soporte mínimo 5.000 libras; absorvedor de impacto de 3 a 5 pies (~1 m). Recomendación de usar dos líneas de vida como estándar para permitir continuidad en desplazamiento.</div>
+                  <div class="content-text">Prohibiciones y buenas prácticas: No anclar a tuberías ni usar sogas de nylon; no enrollar la línea en vigas que puedan cortarla. Verificar capacidad máxima según número de trabajadores conectados.</div>
+                  <a href="https://www.youtube.com/watch?v=lpGnmhwo2fA&start=4695" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(01:18:15)</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section" data-section="7">
+          <div class="section-header" onclick="toggleSection(this)">
+            <div style="display: flex; align-items: center">
+              <span class="section-number">7</span>
+              <span class="section-title">Casos prácticos y lecciones de accidentes</span>
+            </div>
+            <span class="toggle-icon">▼</span>
+          </div>
+          <div class="section-content">
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">7.1</span>
+                  <span class="subsection-title">Caso: incendio por pintura epóxica en ducto</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Descripción del evento: contratistas realizan reparación/pintado en ducto con materiales inflamables (epóxicos) sin control adecuado: Explosión y propagación de fuego; personal atrapado por falta de salidas y concentración de vapores tóxicos. Rescate y llegada de bomberos demorados; resultado: cuatro trabajadores fallecidos.</div>
+                  <div class="content-text">Lecciones extraídas: Necesidad de identificar trabajos de alto riesgo previamente, permisos, monitoreo de atmósfera, señalización y equipos de emergencia.</div>
+                  <a href="https://www.youtube.com/watch?v=lpGnmhwo2fA&start=2640" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(00:44:00)</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">7.2</span>
+                  <span class="subsection-title">Caso: espacio confinado y rescates fatales</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Descripción del evento: operario con pocos días de ingreso entra a alcantarilla sin monitoreo ni protección; inhalación de gases tóxicos provoca muerte: Bomberos que intentan rescatar también resultan víctimas por falta de monitoreo y procedimientos de entrada en espacios confinados.</div>
+                  <div class="content-text">Lecciones extraídas: Obligación de monitoreo de gases antes de ingreso, uso de EPP específico, entrenamiento, equipos de rescate y planificación para espacios confinados.</div>
+                  <a href="https://www.youtube.com/watch?v=lpGnmhwo2fA&start=3056" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(00:50:56)</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section" data-section="8">
+          <div class="section-header" onclick="toggleSection(this)">
+            <div style="display: flex; align-items: center">
+              <span class="section-number">8</span>
+              <span class="section-title">Equipos, inspecciones y responsabilidades en trabajos en altura</span>
+            </div>
+            <span class="toggle-icon">▼</span>
+          </div>
+          <div class="section-content">
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">8.1</span>
+                  <span class="subsection-title">Inspección y mantenimiento de EPP</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Responsabilidad del trabajador y del área de almacén: inspeccionar arnés y conectores al recibir y devolver equipos: Reportar amortiguadores activados, manchas de pintura, quemaduras, deformaciones o corrosión; descartar equipos dañados.</div>
+                  <div class="content-text">Registro y seguimiento: Uso de checklists para control de recepción, inspección y mantenimiento; segunda verificación por supervisor de seguridad.</div>
+                  <a href="https://www.youtube.com/watch?v=lpGnmhwo2fA&start=4880" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(01:21:20)</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">8.2</span>
+                  <span class="subsection-title">Responsabilidades del supervisor y formación</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Supervisores operativos y de seguridad: asegurar plataformas certificadas, cumplimiento de manuales de fabricante y diseño que soporte 4 veces la carga: Verificar capacitación (teórica) y entrenamiento práctico (colocación de arnés, uso de líneas de vida, conexión).</div>
+                  <div class="content-text">Condiciones operativas a controlar: Medición de velocidad del viento con anemómetro desde segundo cuerpo de andamio; asegurar disponibilidad de equipos para número de trabajadores.</div>
+                  <a href="https://www.youtube.com/watch?v=lpGnmhwo2fA&start=5281" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(01:28:01)</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section" data-section="9">
+          <div class="section-header" onclick="toggleSection(this)">
+            <div style="display: flex; align-items: center">
+              <span class="section-number">9</span>
+              <span class="section-title">Escaleras portátiles: tipos, uso seguro e inspecciones</span>
+            </div>
+            <span class="toggle-icon">▼</span>
+          </div>
+          <div class="section-content">
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">9.1</span>
+                  <span class="subsection-title">Tipos y componentes</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Escalera portátil: aparato portátil de dos largueros unidos por peldaños para subir o bajar entre niveles: Tipos: simple de un tramo, tijera, extensible, transformable, telescópica, multiusos.</div>
+                  <div class="content-text">Partes y requisitos: Zapatas antideslizantes, refuerzos anterior y posterior, rieles, bisagras anti atrapamiento, peldaños antideslizantes, traba y topes extremos.</div>
+                  <a href="https://www.youtube.com/watch?v=lpGnmhwo2fA&start=5479" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(01:31:19)</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">9.2</span>
+                  <span class="subsection-title">Condiciones de uso y controles</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Inspección previa mediante checklist: verificar peldaños, rieles, ausencia de rajaduras, aboyaduras, corrosión o daños estructurales: Retirar de uso inmediato si presenta defectos; colocar tarjeta fuera de servicio si hay dudas.</div>
+                  <div class="content-text">Uso seguro: No usar últimos peldaños (tres últimos en simple, dos últimos en tijera); mantener 3 puntos de apoyo; no transportar objetos en manos al subir/bajar. Colocar la base a la distancia adecuada: 1 a 4 (base:altura); amarrar escalera simple y situarla sobre superficie firme y nivelada. Escaleras para trabajos eléctricos deben ser de material no conductor.</div>
+                  <a href="https://www.youtube.com/watch?v=lpGnmhwo2fA&start=5628" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(01:33:48)</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section" data-section="10">
+          <div class="section-header" onclick="toggleSection(this)">
+            <div style="display: flex; align-items: center">
+              <span class="section-number">10</span>
+              <span class="section-title">Andamios y plataformas: componentes, montaje y permisos</span>
+            </div>
+            <span class="toggle-icon">▼</span>
+          </div>
+          <div class="section-content">
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">10.1</span>
+                  <span class="subsection-title">Componentes y diseño de layout</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Elementos del andamio: verticales, horizontales, diagonales, ménsulas, plataformas (acero, aluminio o madera certificada), barandas, rodapiés, pasadores, trampillas, escaleras internas: Selección según actividad (soldadura, pintura, acceso interno/externo) y diseño previo con proveedor para layout e inventario de componentes.</div>
+                  <div class="content-text">Requisitos de certificación: Usar andamios certificados; asegurarse que diseño soporte 4 veces la carga estimada.</div>
+                  <a href="https://www.youtube.com/watch?v=lpGnmhwo2fA&start=6033" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(01:40:33)</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">10.2</span>
+                  <span class="subsection-title">Permisos de montaje y tarjetas de estado</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Permiso de montaje de andamios: incluir duración, ubicación, altura máxima, número de cuerpos, carga que soporta, empresa responsable y checklist de inspección previa: Verificar estado de crucetas, pernos, plataformas metálicas y de madera, elementos de sujeción; prohibir elementos subestándar como clavos o alambres.</div>
+                  <div class="content-text">Tarjetas de andamio: roja (fuera de servicio), amarilla (armándose/desarmándose), verde (apto para uso): Permiso visible en área durante montaje; renovación cada siete jornadas de trabajo; inspección diaria antes de cada jornada.</div>
+                  <a href="https://www.youtube.com/watch?v=lpGnmhwo2fA&start=6605" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(01:50:05)</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">10.3</span>
+                  <span class="subsection-title">Montaje seguro y controles ambientales</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Anclajes, vientos y stability: uso de cuatro vientos o anclajes a estructura fija según altura y cuerpos armados; bases niveladas con tacos y frenos de ruedas activos: Verificar ausencia de huecos en plataformas, rodapiés de 0.10 m, barandas superiores (1.10 m) e intermedias, restricciones de tránsito bajo andamio.</div>
+                  <div class="content-text">Consideraciones climáticas: Cancelar o paralizar montaje/trabajo ante alertas meteorológicas (tormenta eléctrica, vientos fuertes); usar anemómetro para medir velocidad del viento.</div>
+                  <a href="https://www.youtube.com/watch?v=lpGnmhwo2fA&start=6864" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(01:54:24)</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">10.4</span>
+                  <span class="subsection-title">Buenas prácticas constructivas y verificación in situ</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Documentación y verificación en obra: copia del permiso y del plan debe quedar en el lugar de trabajo para ser verificada: Registro visible facilita inspecciones y seguimiento por supervisores y seguridad.</div>
+                  <div class="content-text">Uniones y bases: Uso de pasadores para uniones estructurales; bases sólidas y rígidas con apoyo en planchas de madera de 1" x 30 cm x 30 cm debajo de cada pie. No usar piezas con daños estructurales, oxidación o deformaciones; retirar componentes defectuosos.</div>
+                  <div class="content-text">Alineamiento y plataformas: Andamios siempre aplomados para garantizar verticalidad; plataformas metálicas en buen estado y completamente cubiertas sin agujeros ni espacios. Cada andamio debe contar con escalera o acceso seguro y estar anclado o diseñado estructuralmente para evitar volteo.</div>
+                  <a href="https://www.youtube.com/watch?v=lpGnmhwo2fA&start=7201" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(02:00:01)</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section" data-section="11">
+          <div class="section-header" onclick="toggleSection(this)">
+            <div style="display: flex; align-items: center">
+              <span class="section-number">11</span>
+              <span class="section-title">Procedimientos, checklists y roles operativos</span>
+            </div>
+            <span class="toggle-icon">▼</span>
+          </div>
+          <div class="section-content">
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">11.1</span>
+                  <span class="subsection-title">Procedimientos y documentación</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Importancia del ATS y procedimientos escritos para montaje y uso de andamios: Completar checklist y formatos que certifiquen inspecciones; no montar ni usar hasta corregir “no” en inspecciones críticas.</div>
+                  <div class="content-text">Control de materiales y herramientas: Uso de drizas (sogas de 3/4") para izado/descenso de herramientas; prever medios para traslado de materiales sin poner en riesgo al personal.</div>
+                  <a href="https://www.youtube.com/watch?v=lpGnmhwo2fA&start=6720" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(01:52:00)</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">11.2</span>
+                  <span class="subsection-title">Observador y vigilancia en trabajos en altura</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Observador o vigía: designar persona exclusiva como observador permanente cuando trabajos en altura superen 4 metros: Vigilar cumplimiento de procedimientos, condiciones de seguridad y responder ante emergencias; coordinar rescates y equipo de salvamento.</div>
+                  <a href="https://www.youtube.com/watch?v=lpGnmhwo2fA&start=5015" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(01:23:35)</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section" data-section="12">
+          <div class="section-header" onclick="toggleSection(this)">
+            <div style="display: flex; align-items: center">
+              <span class="section-number">12</span>
+              <span class="section-title">Cierre, receso y continuidad</span>
+            </div>
+            <span class="toggle-icon">▼</span>
+          </div>
+          <div class="section-content">
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">12.1</span>
+                  <span class="subsection-title">Conclusión de la primera parte y siguientes pasos</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Reflexión final: importancia de identificar trabajos de alto riesgo y aplicar permisos, procedimientos, formación y controles para prevenir eventos fatales: Anuncio de receso de 15 minutos y continuación en segunda parte del diplomado.</div>
+                  <div class="content-text">Llamado a la acción implícito: Supervisores y prevencionistas deben asegurar cumplimiento normativo, recursos y registros antes de autorizar trabajos de alto riesgo.</div>
+                  <a href="https://www.youtube.com/watch?v=lpGnmhwo2fA&start=3456" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(00:57:36)</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">12.2</span>
+                  <span class="subsection-title">Resumen y preparación práctica</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Recapitulación de contenidos vistos: trabajos en altura, uso de escaleras y andamios: Énfasis en prácticas seguras y cumplimiento de permisos y checklists en obra.</div>
+                  <div class="content-text">Anuncio de recursos prácticos en la siguiente sesión: Próxima clase incluirá video demostrativo de armado correcto de andamios, partes iniciales, colocación de barandas y diagonales, puntos y métodos para sujetar pasadores.</div>
+                  <div class="content-text">Temas pendientes para futuras clases: Próximos trabajos de alto riesgo a tratar: espacios confinados, trabajos eléctricos y trabajos en caliente.</div>
+                  <div class="content-text">Cierre: Agradecimiento y despedida a los asistentes; reiteración de la importancia de aplicar lo aprendido en campo.</div>
+                  <a href="https://www.youtube.com/watch?v=lpGnmhwo2fA&start=7333" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(02:02:13)</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div class="footer">
       <a href="https://www.edumin.pe/" target="_blank">

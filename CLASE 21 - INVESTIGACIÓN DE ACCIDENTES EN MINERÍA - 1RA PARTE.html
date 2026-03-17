@@ -756,7 +756,614 @@
 
     <div class="header-spacer"></div>
 
-    <div class="container"></div>
+    <div class="container">
+      <div class="mind-map animacion-contenido" id="mindMap">
+        <div class="section" data-section="1">
+          <div class="section-header" onclick="toggleSection(this)">
+            <div style="display: flex; align-items: center">
+              <span class="section-number">1</span>
+              <span class="section-title">Introducción y contexto</span>
+            </div>
+            <span class="toggle-icon">▼</span>
+          </div>
+          <div class="section-content">
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">1.1</span>
+                  <span class="subsection-title">Apertura y propósito de la sesión</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Saludo inicial y comienzo de la clase: Se retoma tema de investigación de accidentes tras auditorías e inspecciones. Enfoque en metodologías y la importancia de investigar sucesos no deseados.</div>
+                  <div class="content-text">Frase motivadora sobre cambio cultural: "Si sigues haciendo lo que siempre has hecho..." para enfatizar mejora continua. Crítica a la cultura del "siempre se ha hecho así" que impide cambios preventivos.</div>
+                  <a href="https://www.youtube.com/watch?v=TLDzPFPJldg&start=427" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(00:07:07)</span></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">1.2</span>
+                  <span class="subsection-title">Importancia de reportar desviaciones</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Reportabilidad salva vidas: Reportar cualquier desviación permite detectar riesgos antes de un accidente. Canales informales (WhatsApp u otros) como medios preventivos.</div>
+                  <div class="content-text">Consecuencias de no reportar: Ocultamiento de incidentes, falta de supervisión o incumplimiento de tareas. Riesgo aumentado por omisión de acciones preventivas (permisos, inspecciones, etc.).</div>
+                  <a href="https://www.youtube.com/watch?v=TLDzPFPJldg&start=543" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(00:09:03)</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section" data-section="2">
+          <div class="section-header" onclick="toggleSection(this)">
+            <div style="display: flex; align-items: center">
+              <span class="section-number">2</span>
+              <span class="section-title">Metodología ICAN / ICANN: conceptos y estructura</span>
+            </div>
+            <span class="toggle-icon">▼</span>
+          </div>
+          <div class="section-content">
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">2.1</span>
+                  <span class="subsection-title">Componentes del modelo ICAN</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Categorías principales del acrónimo ICAN: Condiciones de tarea/entorno: factores físicos (iluminación, ruido, disposición) y condiciones de trabajo como complejidad, carga y repetitividad. Acciones individuales o de equipo: conductas, decisiones o errores individuales y grupales que pueden ser causas directas del accidente. Defensas ausentes o fallidas: barreras de seguridad inexistentes o defectuosas. Factores organizacionales: políticas, procedimientos, cultura, estructura y sistemas de gestión.</div>
+                  <div class="content-text">Tipos de fallas y acciones: Fallas activas: errores inmediatos que provocan el incidente. Fallas latentes: condiciones subyacentes vinculadas a cultura y procesos. Acciones correctivas (a corto plazo) y preventivas (a largo plazo).</div>
+                  <a href="https://www.youtube.com/watch?v=TLDzPFPJldg&start=798" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(00:13:18)</span></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">2.2</span>
+                  <span class="subsection-title">Principio de capas y causalidad acumulativa</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Visualización en capas del riesgo: Diferentes barreras interactúan; los accidentes resultan de múltiples fallos acumulados (imagen tipo "rebanada de queso" con huecos que se alinean). Huecos pueden coincidir en distintas capas: factores organizacionales, condiciones de tarea/entorno, acciones individuales y defensas fallidas.</div>
+                  <div class="content-text">Objetivo del análisis ICAN: Identificar causas subyacentes más allá de eventos superficiales. Implementar medidas correctivas y preventivas basadas en la causa raíz.</div>
+                  <a href="https://www.youtube.com/watch?v=TLDzPFPJldg&start=940" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(00:15:40)</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section" data-section="3">
+          <div class="section-header" onclick="toggleSection(this)">
+            <div style="display: flex; align-items: center">
+              <span class="section-number">3</span>
+              <span class="section-title">Pasos de la investigación ICANN</span>
+            </div>
+            <span class="toggle-icon">▼</span>
+          </div>
+          <div class="section-content">
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">3.1</span>
+                  <span class="subsection-title">Resumen de los siete pasos</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Acciones inmediatas: Asegurar la escena, atender heridos, cordonar sitio y preservar evidencia.</div>
+                  <div class="content-text">Planificación de la investigación: Designar equipo multidisciplinario, definir alcance y cronograma, asignar responsabilidades.</div>
+                  <div class="content-text">Recolección y organización de datos: Recopilar testimonios, registros, fotografías, videos y evidencia física. Clasificar información para facilitar análisis.</div>
+                  <a href="https://www.youtube.com/watch?v=TLDzPFPJldg&start=1087" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(00:18:07)</span></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">3.2</span>
+                  <span class="subsection-title">Detalles de ejecución del proceso</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Formación del comité de investigación: Equipo imparcial con experiencia en seguridad, producción y RRHH. Definir alcance, límites y plazo de entrega del informe final.</div>
+                  <div class="content-text">Reporte a autoridades: Obligación de reportar a la autoridad competente (Sunafil) según normativa; reportes inmediatos para mortales e incidentes peligrosos.</div>
+                  <div class="content-text">Administración documental: Organizar, custodiar y disponer evidencias y registros para la investigación.</div>
+                  <a href="https://www.youtube.com/watch?v=TLDzPFPJldg&start=1142" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(00:19:02)</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section" data-section="4">
+          <div class="section-header" onclick="toggleSection(this)">
+            <div style="display: flex; align-items: center">
+              <span class="section-number">4</span>
+              <span class="section-title">Recolección de datos: categorías y testigos</span>
+            </div>
+            <span class="toggle-icon">▼</span>
+          </div>
+          <div class="section-content">
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">4.1</span>
+                  <span class="subsection-title">Categorías PEPO</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Personal: Información sobre capacitación, experiencia, estado físico, fatiga, estrés y comunicación. Inclusión de datos sobre desconocimiento de operaciones y falta de operadores experimentados cuando aplica.</div>
+                  <div class="content-text">Entorno: Condiciones físicas: iluminación, ruido, temperatura, ventilación, disposición del área y barreras físicas faltantes. Riesgos específicos: trabajo en altura, pisos corroídos, obstáculos, espacio limitado y ergonomía deficiente.</div>
+                  <div class="content-text">Equipo: Estado de herramientas y maquinarias, historial de mantenimiento, modificaciones no autorizadas y fallas. Considerar métodos de izamiento: izamiento manual vs mecánico y procedimientos asociados.</div>
+                  <div class="content-text">Procedimientos y Organización: Métodos de trabajo, cumplimiento de protocolos, cultura organizacional, sistemas de gestión y control de visitas.</div>
+                  <a href="https://www.youtube.com/watch?v=TLDzPFPJldg&start=1645" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(00:27:25)</span></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">4.2</span>
+                  <span class="subsection-title">Tipos de testigos y utilidad</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Testigo pre-contacto: Describe condiciones y eventos ocurridos antes del accidente, aporta contexto previo.</div>
+                  <div class="content-text">Testigo de contacto: Presente durante el incidente; reconstruye secuencia y acciones inmediatas.</div>
+                  <div class="content-text">Testigo post-contacto: Llegó después; documenta medidas de emergencia y daños posteriores.</div>
+                  <a href="https://www.youtube.com/watch?v=TLDzPFPJldg&start=1848" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(00:30:48)</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section" data-section="5">
+          <div class="section-header" onclick="toggleSection(this)">
+            <div style="display: flex; align-items: center">
+              <span class="section-number">5</span>
+              <span class="section-title">Análisis técnico de equipos, sustancias y procedimientos</span>
+            </div>
+            <span class="toggle-icon">▼</span>
+          </div>
+          <div class="section-content">
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">5.1</span>
+                  <span class="subsection-title">Datos técnicos sobre equipos y mantenimiento</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Diseño y construcción: Especificaciones técnicas, adecuación a la tarea, materiales y estándares; ejemplo: trituradoras y tolvas deben diseñarse para prevenir bloqueos (rejillas, vibradores).</div>
+                  <div class="content-text">Inspección, pruebas y mantenimiento: Registros de inspección, histórico de mantenimiento, frecuencia y mantenimiento preventivo.</div>
+                  <div class="content-text">Modificaciones y daños: Cambios no autorizados, deformaciones o marcas que indiquen fallo y causas posibles.</div>
+                  <a href="https://www.youtube.com/watch?v=TLDzPFPJldg&start=2068" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(00:34:28)</span></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">5.2</span>
+                  <span class="subsection-title">Procedimientos, políticas y controles</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Procedimientos operativos y de seguridad: Disponibilidad, adecuación al trabajo, claridad, concisión y efectividad del entrenamiento.</div>
+                  <div class="content-text">Políticas y cultura organizacional: Planificación, metas incompatibles (producción vs seguridad), presión operacional, comunicación deficiente y falta de control de visitas.</div>
+                  <div class="content-text">Mecanismos de control: Permisos de trabajo, evaluaciones de riesgo, EPP (uso correcto y disponibilidad), especificaciones de compra y planes de emergencia.</div>
+                  <a href="https://www.youtube.com/watch?v=TLDzPFPJldg&start=2280" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(00:38:00)</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section" data-section="6">
+          <div class="section-header" onclick="toggleSection(this)">
+            <div style="display: flex; align-items: center">
+              <span class="section-number">6</span>
+              <span class="section-title">Organización de datos y herramientas de análisis</span>
+            </div>
+            <span class="toggle-icon">▼</span>
+          </div>
+          <div class="section-content">
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">6.1</span>
+                  <span class="subsection-title">Diagrama de eventos y causas; método de los "cinco porqués"</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Diagrama de eventos y causas: Visualiza secuencia: evento principal, eventos inmediatos y precondiciones; identifica lagunas temporales y preguntas sin resolver.</div>
+                  <div class="content-text">Cinco porqués: Técnica para profundizar hasta la causa raíz mediante preguntas sucesivas; no limitada a cinco iteraciones si se requiere.</div>
+                  <a href="https://www.youtube.com/watch?v=TLDzPFPJldg&start=2519" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(00:41:59)</span></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">6.2</span>
+                  <span class="subsection-title">Tabla ICANN y jerarquía de defensas</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Construcción de la tabla ICANN: Revisar resultados, identificar defensas fallidas/ausentes y factores organizacionales; relacionar DF/FO/CT/A/LOG en un análisis integrado.</div>
+                  <div class="content-text">Jerarquía de defensas fallidas: Categorías como eliminación, sustitución, rediseño (controles duros), controles administrativos (procedimientos, entrenamiento) y EPP (último recurso). Ejemplos: entrenamiento, EPP, extintores, kits de derrame, sistemas de alarma.</div>
+                  <a href="https://www.youtube.com/watch?v=TLDzPFPJldg&start=2820" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(00:47:00)</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section" data-section="7">
+          <div class="section-header" onclick="toggleSection(this)">
+            <div style="display: flex; align-items: center">
+              <span class="section-number">7</span>
+              <span class="section-title">Acciones individuales, grupales y redacción de recomendaciones</span>
+            </div>
+            <span class="toggle-icon">▼</span>
+          </div>
+          <div class="section-content">
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">7.1</span>
+                  <span class="subsection-title">Fallas activas y ejemplos de acciones inseguras</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Supervisión y autoridad operacional: Supervisión inadecuada, supervisión excesiva que genera presión, operaciones no autorizadas y velocidades de operación inseguras.</div>
+                  <div class="content-text">Uso y manejo de equipos: Uso incorrecto de herramientas, operador inició marcha sin percatarse de presencia de personas, prácticas deficientes y manejo inapropiado de materiales.</div>
+                  <div class="content-text">Cumplimiento de procedimientos y conducta: Procedimientos no seguidos, violaciones toleradas y errores humanos por fatiga, juicio pobre o ilusión de control.</div>
+                  <a href="https://www.youtube.com/watch?v=TLDzPFPJldg&start=3461" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(00:57:41)</span></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">7.2</span>
+                  <span class="subsection-title">Formulación de acciones correctivas y preventivas</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Redacción de acciones como verbos (acciones concretas): Ejemplos: supervisar, revisar, inspeccionar; definir responsables y plazos.</div>
+                  <div class="content-text">Distinción entre corrección y no conformidad: Acciones deben identificar violaciones y proponer medidas concretas; usar SMART para definir acciones específicas, medibles, alcanzables, relevantes y con tiempo. Ejemplo SMART: inspección semanal de escaleras por supervisores durante el próximo mes, registro en lista de verificación y revisión por supervisor de seguridad.</div>
+                  <a href="https://www.youtube.com/watch?v=TLDzPFPJldg&start=3569" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(00:59:29)</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section" data-section="8">
+          <div class="section-header" onclick="toggleSection(this)">
+            <div style="display: flex; align-items: center">
+              <span class="section-number">8</span>
+              <span class="section-title">Factores humanos, de trabajo y organizacionales</span>
+            </div>
+            <span class="toggle-icon">▼</span>
+          </div>
+          <div class="section-content">
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">8.1</span>
+                  <span class="subsection-title">Factores de tarea y entorno</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Componentes: Complejidad de la tarea, carga de trabajo, repetitividad, herramientas inadecuadas, falta de tiempo y ambiente hostil. Ejemplos añadidos: primera vez que realiza la operación, desconocimiento de operaciones por parte del personal y operarios sin experiencia.</div>
+                  <div class="content-text">Efecto sobre el riesgo: Estas condiciones aumentan la probabilidad de errores y distracciones; ejemplo: trabajador fatigado en baja iluminación es más propenso a fallos.</div>
+                  <a href="https://www.youtube.com/watch?v=TLDzPFPJldg&start=4236" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(01:10:36)</span></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">8.2</span>
+                  <span class="subsection-title">Factores humanos y de violación</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Factores de error y comunes: Fatiga, estrés, juicio pobre, falta de imparcialidad en la comunicación, ansiedad en la ejecución.</div>
+                  <div class="content-text">Factores de violación y culturales: Tolerancia a violaciones, moral baja, personalidad que propicia incumplimiento, conflictos entre contratistas.</div>
+                  <a href="https://www.youtube.com/watch?v=TLDzPFPJldg&start=4396" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(01:13:16)</span></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">8.3</span>
+                  <span class="subsection-title">Factores organizacionales</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Efectos sistémicos: Estructura, cultura, políticas, falta de gestión de riesgos, metas incompatibles producción/seguridad y deficiencias en capacitación y comunicación.</div>
+                  <div class="content-text">Identificación y corrección: Son a menudo raíz de múltiples accidentes; su corrección previene recurrencia y mejora la gestión de seguridad.</div>
+                  <a href="https://www.youtube.com/watch?v=TLDzPFPJldg&start=4549" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(01:15:49)</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section" data-section="9">
+          <div class="section-header" onclick="toggleSection(this)">
+            <div style="display: flex; align-items: center">
+              <span class="section-number">9</span>
+              <span class="section-title">Acciones preventivas y jerarquía de control</span>
+            </div>
+            <span class="toggle-icon">▼</span>
+          </div>
+          <div class="section-content">
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">9.1</span>
+                  <span class="subsection-title">Metodología SMART aplicada a acciones</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Especificidad (S): Definir qué, quién, dónde y cuándo; responder preguntas clave para claridad.</div>
+                  <div class="content-text">Medición (M): Establecer indicadores y criterios para verificar cumplimiento y resultados.</div>
+                  <div class="content-text">Alcanzable (A): Asignar responsables y recursos, evaluar viabilidad sin perjudicar otros objetivos.</div>
+                  <div class="content-text">Relevante (R): Relacionar acciones con defensas fallidas y factores organizacionales.</div>
+                  <div class="content-text">Tiempo (T): Plazos definidos y razonables para incentivar cumplimiento oportuno.</div>
+                  <a href="https://www.youtube.com/watch?v=TLDzPFPJldg&start=4747" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(01:19:07)</span></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">9.2</span>
+                  <span class="subsection-title">Jerarquía de controles</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Controles duros (más efectivos): Eliminar peligro, sustituir por opciones menos peligrosas, rediseñar equipos y procesos.</div>
+                  <div class="content-text">Controles blandos (administrativos): Procedimientos, entrenamiento, supervisión y gestión del comportamiento.</div>
+                  <div class="content-text">EPP (último recurso): Uso correcto cuando otros controles no son prácticos.</div>
+                  <div class="content-text">Cultura y conducta: Fomentar responsabilidad individual y colectiva para cuidar la propia seguridad y la de compañeros.</div>
+                  <a href="https://www.youtube.com/watch?v=TLDzPFPJldg&start=5001" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(01:23:21)</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section" data-section="10">
+          <div class="section-header" onclick="toggleSection(this)">
+            <div style="display: flex; align-items: center">
+              <span class="section-number">10</span>
+              <span class="section-title">Casos, ejemplos y lecciones aprendidas</span>
+            </div>
+            <span class="toggle-icon">▼</span>
+          </div>
+          <div class="section-content">
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">10.1</span>
+                  <span class="subsection-title">Caso de trituradora y fallas de diseño/procedimiento</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Descripción del suceso: Fatalidad por ingreso a trituradora para despejar bloqueo; trabajador atrapado por material en movimiento.</div>
+                  <div class="content-text">Lecciones y mejoras propuestas (MSHA): Diseño de equipos para prevenir bloqueos (rejillas, vibradores, cañones de aire). Procedimientos claros, capacitación, evaluación de riesgos, inspecciones regulares y mantenimiento preventivo. Comunicaciones efectivas y colaboración con trabajadores.</div>
+                  <a href="https://www.youtube.com/watch?v=TLDzPFPJldg&start=5246" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(01:27:26)</span></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">10.2</span>
+                  <span class="subsection-title">Video y ejemplos visuales de actos y condiciones inseguras</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Observaciones del material audiovisual: Interacción hombre-máquina inadecuada, personas en zonas de paso sin EPP, cargas suspendidas, uso de herramientas sin protección y cables desordenados.</div>
+                  <div class="content-text">Tipos de accidentes y cuasi-accidentes: Clasificación: leves, incapacitantes (temporal o permanente) y mortales; cuasi-accidentes como indicios preventivos.</div>
+                  <a href="https://www.youtube.com/watch?v=TLDzPFPJldg&start=5409" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(01:30:09)</span></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">10.3</span>
+                  <span class="subsection-title">Caso de gerente impactado por equipo</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Análisis mediante "cinco porqués": Evento principal: gerente falleció al ser impactado por equipo. Causas directas: operador inició marcha sin percatarse de presencia en zona de riesgo. Causas indirectas: falta de comunicación, señalización, capacitación y procedimientos de visita. Causa raíz: falla en el sistema de gestión de seguridad (comunicación, capacitación y supervisión).</div>
+                  <div class="content-text">Lecciones aprendidas: Implementar comunicación efectiva, señalización, supervisión y procedimientos de control de visitas; investigar a fondo para medidas correctivas.</div>
+                  <a href="https://www.youtube.com/watch?v=TLDzPFPJldg&start=5784" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(01:36:24)</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section" data-section="11">
+          <div class="section-header" onclick="toggleSection(this)">
+            <div style="display: flex; align-items: center">
+              <span class="section-number">11</span>
+              <span class="section-title">Normativa, notificación e investigación obligatoria</span>
+            </div>
+            <span class="toggle-icon">▼</span>
+          </div>
+          <div class="section-content">
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">11.1</span>
+                  <span class="subsection-title">Marco legal y principios</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Leyes y principios relevantes: Mención de normas nacionales (ej. Ley 29783 y creación de Sunafil 29981) y principios de prevención y protección.</div>
+                  <div class="content-text">Obligaciones del empleador: Garantizar medios y condiciones que protejan vida, salud y bienestar; investigar daños en salud y fallas en medidas preventivas.</div>
+                  <a href="https://www.youtube.com/watch?v=TLDzPFPJldg&start=6380" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(01:46:20)</span></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">11.2</span>
+                  <span class="subsection-title">Notificación y roles en la investigación</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Plazos y notificaciones: Reporte de accidentes mortales e incidentes peligrosos inmediato; notificación de enfermedades laborales y accidentes dentro de plazos legales.</div>
+                  <div class="content-text">Quién investiga y cómo: Investigación por empleador con representantes de trabajadores, comité de seguridad y, en mortales, coordinación con autoridad administrativa del trabajo. Pasos: reportar, recopilar evidencias, aplicar metodología, identificar causas hasta raíz e implementar acciones correctivas.</div>
+                  <a href="https://www.youtube.com/watch?v=TLDzPFPJldg&start=6913" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(01:55:13)</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section" data-section="12">
+          <div class="section-header" onclick="toggleSection(this)">
+            <div style="display: flex; align-items: center">
+              <span class="section-number">12</span>
+              <span class="section-title">Herramientas complementarias de análisis</span>
+            </div>
+            <span class="toggle-icon">▼</span>
+          </div>
+          <div class="section-content">
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">12.1</span>
+                  <span class="subsection-title">Diagrama de Ishikawa y otras metodologías</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Uso del diagrama de Ishikawa: Identificar factores por categorías: hombre, máquina, entorno, material, método y medida.</div>
+                  <div class="content-text">Aplicación práctica: Complementa los cinco porqués y la tabla ICANN para representar relaciones causales y facilitar diseño de controles.</div>
+                  <a href="https://www.youtube.com/watch?v=TLDzPFPJldg&start=7157" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(01:59:17)</span></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">12.2</span>
+                  <span class="subsection-title">Propósito de investigar</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Objetivos de la investigación: Revelar la red de causalidad, tomar acciones correctivas y prevenir recurrencia. Responder tres preguntas básicas: ¿Cuál es el problema? ¿Por qué ocurrió? ¿Qué se hará para prevenir?</div>
+                  <div class="content-text">Resultados esperados: Identificación de causas inmediatas y raíz, claridad en relaciones causales y definición de soluciones aplicables.</div>
+                  <a href="https://www.youtube.com/watch?v=TLDzPFPJldg&start=6981" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(01:56:21)</span></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="subsection">
+              <div class="subsection-header" onclick="toggleSubsection(this)">
+                <div style="display: flex; align-items: center">
+                  <span class="subsection-number">12.3</span>
+                  <span class="subsection-title">Conclusión de la sesión y continuidad</span>
+                </div>
+                <span class="toggle-icon">▼</span>
+              </div>
+              <div class="subsection-content">
+                <div class="content-item">
+                  <div class="content-text">Resumen y cierre: Se reitera potencia de la metodología ICANN cuando se siguen todos los pasos y su capacidad para involucrar desde operarios hasta gerencias.</div>
+                  <div class="content-text">Próxima sesión y temas futuros: Aviso de próxima clase el día 30 (jueves); se revisará más sobre investigación de accidentes y se introducirá respuesta a emergencias. Preparación de material adicional y continuidad en el programa.</div>
+                  <div class="content-text">Agradecimientos y despedida: Cierre de la clase con agradecimientos múltiples y confirmación de continuidad en próximas sesiones.</div>
+                  <a href="https://www.youtube.com/watch?v=TLDzPFPJldg&start=7214" class="youtube-link" target="_blank">Ver en YouTube <span class="timestamp">(02:00:14)</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div class="footer">
       <a href="https://www.edumin.pe/" target="_blank">
